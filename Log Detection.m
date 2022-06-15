@@ -46,6 +46,7 @@ imshow(clBW);
 drawnow;
 
 %% Processing 
+
 I = imread('enterfileName.png');
 I = rescale(I);
 
